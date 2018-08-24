@@ -1,0 +1,24 @@
+{
+  "name": "imprew",
+  "version": "0.0.1",
+  "description": "JavaScript plugin for preview image before upload",
+  "main": "dist/imprew.js",
+  "scripts": {
+    "test": "lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaaips/imprew.git"
+  },
+  "keywords": [
+    "image",
+    "preview",
+    "upload"
+  ],
+  "author": "hello@vaaip.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaaips/imprew/issues"
+  },
+  "homepage": "https://github.com/vaaips/imprew#readme"
+}
