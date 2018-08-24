@@ -4,7 +4,7 @@
   "description": "JavaScript plugin for preview image before upload",
   "main": "dist/imprew.js",
   "scripts": {
-    "test": "lint"
+    "lint": "eslint src/imprew.js"
   },
   "repository": {
     "type": "git",
