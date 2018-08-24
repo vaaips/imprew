@@ -1,11 +1,11 @@
-export default function imprew(options) {
+export default function imprew (options) {
   const image = document.querySelector(options.image)
   const input = document.querySelector(options.input)
 
   input.addEventListener('change', (event) => {
     var imageFile = input.files[0]
     if (imageFile) {
-      const reader = new FileReader()
+      const reader = new window.FileReader()
 
       reader.onload = (event) => {
         var result = event.target.result
