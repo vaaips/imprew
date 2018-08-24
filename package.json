@@ -2,7 +2,7 @@
   "name": "imprew",
   "version": "0.0.1",
   "description": "JavaScript plugin for preview image before upload",
-  "main": "dist/imprew.js",
+  "main": "src/imprew.js",
   "scripts": {
     "lint": "eslint src/imprew.js"
   },
