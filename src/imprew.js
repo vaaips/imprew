@@ -2,13 +2,14 @@ export default function imprew (options) {
   const image = document.querySelector(options.image)
   const input = document.querySelector(options.input)
 
-  input.addEventListener('change', (event) => {
-    var imageFile = input.files[0]
+  input.addEventListener('change', () => {
+    const imageFile = input.files[0]
+
     if (imageFile) {
       const reader = new window.FileReader()
 
       reader.onload = (event) => {
-        var result = event.target.result
+        const result = event.target.result
         image.setAttribute('src', result)
       }
 
